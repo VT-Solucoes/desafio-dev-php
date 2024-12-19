@@ -12,7 +12,9 @@ Esses são os atributos de qualidade que esperamos que você atenda:
 - **Corretude:** O seu código deve seguir os requerimentos apresentados no [item abaixo](#o-que-queremos-que-você-faça);
 - **Testabilidade:** Quão fácil é entender e testar o seu código;
 - **Manutenibilidade:** Quão fácil é adicionar novas funcionalidades no seu código;
-- **Separação de conceitos:** (https://en.wikipedia.org/wiki/Separation_of_concerns)
+- **Coesão e integridade das informações:** Exclusões de registro de forma que não ocorra corrompimento das informações;
+- **Separação de conceitos:** (https://en.wikipedia.org/wiki/Separation_of_concerns);
+- **Resolução:** Forma com que você resolve os problemas;
 
 ## Como Entregar
 
@@ -25,9 +27,9 @@ Esses são os atributos de qualidade que esperamos que você atenda:
 ## O que queremos que você faça
 1. Uma aplicação simples que a partir de um form efetue:
   A. Aplicação
-    - [ ] Inserção de informações em uma tabela;
-    - [ ] Liste todos os itens cadastrados nessa tabela; 
-    - [ ] A partir da listagem, efetue a exclusão de um registro;
+      - [ ] Inserção de informações em uma tabela;
+      - [ ] Liste todos os itens cadastrados nessa tabela; 
+      - [ ] A partir da listagem, efetue a exclusão de um registro;
       <br><br>
   B. Banco de dados com as informações abaixo:
       - As tabelas devem conter no mínimo os campos:
@@ -40,14 +42,14 @@ Esses são os atributos de qualidade que esperamos que você atenda:
         - Tabela **Operadora**
           - CNPJ
           - Nome
-    - Você pode adicionar outros campos à tabela. Os listados são os campos obrigatórios;
+      - Você pode adicionar outros campos à tabela. Os listados são os campos obrigatórios;
      <br><br>
-      - [ ] Cada cartão somente pode estar vinculado a uma operadora;
-      - [ ] Os funcionários podem ter 1 ou mais cartões;
-      - [ ] Deve ser criado um formulário para inserir as informações nas tabelas;
-      - [ ] Liste todos os itens cadastrados, trazendo os vínculos;
-      - [ ] A partir da listagem, efetue a exclusão de um registro;
-      - [ ] Crie um formulário de busca, que a partir de um documento ou número de cartão mostre as informações cadastradas;
+        - [ ] Cada cartão somente pode estar vinculado a uma operadora;
+        - [ ] Os funcionários podem ter 1 ou mais cartões;
+        - [ ] Deve ser criado um formulário para inserir as informações nas tabelas;
+        - [ ] Liste todos os itens cadastrados, trazendo os vínculos;
+        - [ ] A partir da listagem, efetue a exclusão de um registro;
+        - [ ] Crie um formulário de busca, que a partir de um documento ou número de cartão mostre as informações cadastradas;
       <br><br>
 2. Um script que acesse o Google e:
     - [ ] Efetue uma busca (por qualquer termo);
