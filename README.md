@@ -1,4 +1,4 @@
-# Desafio Dev PHP
+# Desafio Dev PHP Pleno
 
 Quando programamos, nós tentamos seguir uma gama de melhores práticas e padrões de projeto.
 
@@ -23,51 +23,48 @@ Esses são os atributos de qualidade que esperamos que você atenda:
 - **Após finalizar o desafio, por favor submeta as informações por meio deste formulário:**
   https://forms.gle/uhLL4qMRHQtoeQUTA
 
-
 ## O que queremos que você faça
+
 1. Uma aplicação simples que a partir de um form efetue:
-   <br><br>
-  A. Aplicação
-      - [ ] Inserção de informações em uma tabela;
-      - [ ] Liste todos os itens cadastrados nessa tabela; 
-      - [ ] A partir da listagem, efetue a exclusão de um registro;
-      <br><br>
-  B. Banco de dados com as informações abaixo:
-      - As tabelas devem conter no mínimo os campos:
-        - Tabela **Funcionário**
-          - Nome
-          - Documento
-        - Tabela **Cartão**
-          - Número
-          - Saldo
-        - Tabela **Operadora**
-          - CNPJ
-          - Nome
-      - Você pode adicionar outros campos à tabela. Os listados são os campos obrigatórios;
-     <br><br>
-        - [ ] Cada cartão somente pode estar vinculado a uma operadora;
-        - [ ] Os funcionários podem ter 1 ou mais cartões;
-        - [ ] Deve ser criado um formulário para inserir as informações nas tabelas;
-        - [ ] Liste todos os itens cadastrados, trazendo os vínculos;
-        - [ ] A partir da listagem, efetue a exclusão de um registro;
-        - [ ] Crie um formulário de busca, que a partir de um documento ou número de cartão mostre as informações cadastradas;
-      <br><br>
-3. Um script que acesse o Google e:
-    - [ ] Efetue uma busca (por qualquer termo);
-    - [ ] Efetue uma busca por **VT Soluções**;
-    - [ ] A partir da busca acima retorne um array com 
-      - Telefone
-      - Endereço
-        <br><br>
-4. Um script que acesse o site da VT Soluções (https://www.vtsolucoes.com.br) obtenha a última notícia do blog e:
-    - [ ] Retorne um array com
-      - Título
-      - Resumo
-      - URL da imagem
+
+   **A. Aplicação**
+   - [ ] Inserção de informações em uma tabela;
+   - [ ] Liste todos os itens cadastrados nessa tabela; 
+   - [ ] A partir da listagem, efetue a exclusão de um registro;
+
+   **B. Banco de dados com as informações abaixo:**
+   - O banco deve conter no mínimo as seguintes tabelas:
+     - Tabela **Funcionário**
+       - Nome
+       - Documento
+     - Tabela **Cartão**
+       - Número
+       - Saldo
+     - Tabela **Operadora**
+       - CNPJ
+       - Nome
+
+	**Regras de negócio:**
+	- [ ] Cada cartão somente pode estar vinculado a uma operadora;
+	- [ ] Os funcionários podem ter 1 ou mais cartões;
+	- [ ] Crie um formulário de busca, que a partir de um documento ou número de cartão mostre as informações cadastradas;
+
+2. Um script que acesse o Google e:
+   - [ ] Efetue uma busca (por qualquer termo);
+   - [ ] Efetue uma busca por **VT Soluções**;
+   - [ ] A partir da busca acima, retorne um array com:
+     - Telefone
+     - Endereço
+
+3. Um script que acesse o site da VT Soluções (https://www.vtsolucoes.com.br) e obtenha a última notícia do blog e:
+   - [ ] Retorne um array com:
+     - Título
+     - Resumo
+     - URL da imagem
 
 ### Observações
 - Utilize PHP para a realização do teste;
 - Você pode utilizar ou não framework, fica a seu critério. Vamos avaliar a sua lógica; 
 - Se utilizar framework, pode ser o que você estiver mais acostumado(a);
 - Pode utilizar qualquer banco de dados relacional (MySQL, MariaDB, PostgreSQL, etc...);
-- Qualquer dúvida não deixe de entrar em contato conosco.
+- Qualquer dúvida, não deixe de entrar em contato conosco.
