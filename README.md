@@ -24,39 +24,39 @@ Esses são os atributos de qualidade que esperamos que você atenda:
 
 ## O que queremos que você faça
 1. Uma aplicação simples que a partir de um form efetue:
+  A. Aplicação
     - [ ] Inserção de informações em uma tabela;
     - [ ] Liste todos os itens cadastrados nessa tabela; 
     - [ ] A partir da listagem, efetue a exclusão de um registro;
       <br><br>
-2. Monte um banco de dados com as informações abaixo:
-    - As tabelas devem conter no mínimo os campos:
-      - Tabela **Funcionário**
-        - Nome
-        - Documento
-      - Tabela **Cartão**
-        - Número
-        - Saldo
-      - Tabela **Operadora**
-        - CNPJ
-        - Nome
+  B. Banco de dados com as informações abaixo:
+      - As tabelas devem conter no mínimo os campos:
+        - Tabela **Funcionário**
+          - Nome
+          - Documento
+        - Tabela **Cartão**
+          - Número
+          - Saldo
+        - Tabela **Operadora**
+          - CNPJ
+          - Nome
     - Você pode adicionar outros campos à tabela. Os listados são os campos obrigatórios;
      <br><br>
-    - [ ] Cada cartão somente pode estar vinculado a uma operadora;
-    - [ ] Os funcionários podem ter 1 ou mais cartões;
-    - [ ] Deve ser criado um formulário para inserir as informações nas tabelas;
-    - [ ] Liste todos os itens cadastrados, trazendo os vínculos;
-    - [ ] A partir da listagem, efetue a exclusão de um registro;
-    - [ ] Crie um formulário de busca, que a partir de um documento ou número de cartão mostre as informações cadastradas;
-    
+      - [ ] Cada cartão somente pode estar vinculado a uma operadora;
+      - [ ] Os funcionários podem ter 1 ou mais cartões;
+      - [ ] Deve ser criado um formulário para inserir as informações nas tabelas;
+      - [ ] Liste todos os itens cadastrados, trazendo os vínculos;
+      - [ ] A partir da listagem, efetue a exclusão de um registro;
+      - [ ] Crie um formulário de busca, que a partir de um documento ou número de cartão mostre as informações cadastradas;
       <br><br>
-3. Um script que acesse o Google e:
+2. Um script que acesse o Google e:
     - [ ] Efetue uma busca (por qualquer termo);
     - [ ] Efetue uma busca por **VT Soluções**;
     - [ ] A partir da busca acima retorne um array com 
       - Telefone
       - Endereço
         <br><br>
-4. Um script que acesse o site da VT Soluções (https://www.vtsolucoes.com.br) obtenha a última notícia do blog e:
+3. Um script que acesse o site da VT Soluções (https://www.vtsolucoes.com.br) obtenha a última notícia do blog e:
     - [ ] Retorne um array com
       - Título
       - Resumo
