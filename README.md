@@ -26,6 +26,7 @@ Esses são os atributos de qualidade que esperamos que você atenda:
 
 ## O que queremos que você faça
 1. Uma aplicação simples que a partir de um form efetue:
+   <br><br>
   A. Aplicação
       - [ ] Inserção de informações em uma tabela;
       - [ ] Liste todos os itens cadastrados nessa tabela; 
@@ -51,14 +52,14 @@ Esses são os atributos de qualidade que esperamos que você atenda:
         - [ ] A partir da listagem, efetue a exclusão de um registro;
         - [ ] Crie um formulário de busca, que a partir de um documento ou número de cartão mostre as informações cadastradas;
       <br><br>
-2. Um script que acesse o Google e:
+3. Um script que acesse o Google e:
     - [ ] Efetue uma busca (por qualquer termo);
     - [ ] Efetue uma busca por **VT Soluções**;
     - [ ] A partir da busca acima retorne um array com 
       - Telefone
       - Endereço
         <br><br>
-3. Um script que acesse o site da VT Soluções (https://www.vtsolucoes.com.br) obtenha a última notícia do blog e:
+4. Um script que acesse o site da VT Soluções (https://www.vtsolucoes.com.br) obtenha a última notícia do blog e:
     - [ ] Retorne um array com
       - Título
       - Resumo
