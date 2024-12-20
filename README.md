@@ -12,7 +12,9 @@ Esses são os atributos de qualidade que esperamos que você atenda:
 - **Corretude:** O seu código deve seguir os requerimentos apresentados no [item abaixo](#o-que-queremos-que-você-faça);
 - **Testabilidade:** Quão fácil é entender e testar o seu código;
 - **Manutenibilidade:** Quão fácil é adicionar novas funcionalidades no seu código;
-- **Separação de conceitos:** (https://en.wikipedia.org/wiki/Separation_of_concerns)
+- **Coesão e integridade das informações:** Exclusões de registro de forma que não ocorra corrompimento das informações;
+- **Separação de conceitos:** (https://en.wikipedia.org/wiki/Separation_of_concerns);
+- **Resolução:** Forma com que você resolve os problemas;
 
 ## Como Entregar
 
